@@ -1,0 +1,16 @@
+.container,
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.btn {
+  background-color: green;
+  color: white;
+  border-radius: 12px;
+  margin-left: 5px;
+}
+#list_item {
+  background-color: lightgreen;
+  font-size: larger;
+}

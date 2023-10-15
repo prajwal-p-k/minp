@@ -1,0 +1,24 @@
+body{
+    background-color: #303030;
+}
+h1{
+    text-align: center;
+}
+#digitalClock{
+    position: absolute;
+    color: violet;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    border: 1px solid violet;
+    background-color: black;
+    padding: 1px 5px;
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    color: violet; */
+
+}

@@ -1,0 +1,49 @@
+h1{
+    text-align: center;
+    background-color: #303030;
+    color:white;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 11%;
+}
+table {
+  background-color: #303030;
+  border: 1px solid black;
+  padding:  5px;
+  border-radius: 5px;
+}
+td{
+    margin: 0;
+    border: 1px solid black;
+    text-align: center;
+    background-color: white;
+    cursor: pointer;
+}
+td[colspan="3"]{
+    background-color: #303030;
+}
+::placeholder{
+    color: white;
+}
+input {
+  margin: 1px 0;
+  padding: 15px;
+  font-size: 16px;
+  background-color: white;
+  border: none;
+  cursor: pointer;
+
+}
+
+#result {
+  text-align: right;
+  padding: 16px;
+  color: whitesmoke;
+  background-color: #303030;
+  font-size: 16px;
+  cursor: default;
+  border: 1px solid white;
+
+}
